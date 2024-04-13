@@ -51,7 +51,7 @@ app.use('/api/auth',auth)
 app.use('/api/listing',listing)
 app.use('/api/bookings',bookings);
 app.use('/api/user',user);
-app.use('/',res.send("server running"));
+
 
 const CONNECTION_URL = process.env.CONNECTION_URL;
 const PORT = process.env.PORT || 5000;
